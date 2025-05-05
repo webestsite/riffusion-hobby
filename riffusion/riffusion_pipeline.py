@@ -74,7 +74,7 @@ class RiffusionPipeline(DiffusionPipeline):
     ) -> RiffusionPipeline:
         """
         Load the riffusion model pipeline.
-
+        Contributors: Hussein Mostafa
         Args:
             checkpoint: Model checkpoint on disk in diffusers format
             use_traced_unet: Whether to use the traced unet for speedups
